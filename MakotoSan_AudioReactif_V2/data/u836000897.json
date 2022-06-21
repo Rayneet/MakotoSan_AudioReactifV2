@@ -1,0 +1,35 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u261009240",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mcGains" : [ 133, 122, 150, 129, 137, 143, 143, 137, 140, 133, 132, 120, 120, 132, 132, 120, 120, 120, 120, 120, 120, 120, 120, 127 ],
+					"playlist~[1]" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "Chikurin_MakotoSan.wav",
+										"filename" : "Chikurin_MakotoSan.wav",
+										"filekind" : "audiofile",
+										"id" : "u273002981",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

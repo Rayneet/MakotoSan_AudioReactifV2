@@ -1,0 +1,24 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u728004524",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"p_event::eventClass" : [ 0 ],
+					"p_event::eventType" : [ 0 ],
+					"p_event::phaseChange" : [ 0 ],
+					"p_event::eventTime" : [ 0, ":", 10, ":", 21 ],
+					"p_event[1]::eventClass" : [ 1 ],
+					"p_event[1]::eventTime" : [ 0, ":", 10, ":", 50 ],
+					"p_event[1]::eventType" : [ 0 ],
+					"p_event[1]::phaseChange" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,61 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u261009240",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"playlist~[1]" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "Chikurin_MakotoSan.wav",
+										"filename" : "Chikurin_MakotoSan.wav",
+										"filekind" : "audiofile",
+										"id" : "u273002981",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"mcGains" : [ 124, 90, 124, 89, 123, 124, 95, 125, 120, 122 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"playlist~[1]" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "Chikurin_MakotoSan.wav",
+										"filename" : "Chikurin_MakotoSan.wav",
+										"filekind" : "audiofile",
+										"id" : "u273002981",
+										"loop" : 0,
+										"content_state" : 										{
+
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"mcGains" : [ 124, 123, 124, 121, 123, 124, 95, 125, 120, 122 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
