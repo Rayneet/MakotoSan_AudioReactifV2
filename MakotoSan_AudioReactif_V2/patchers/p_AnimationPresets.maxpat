@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,59 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
+					"id" : "obj-24",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1074.274205207824707, 272.406275272369385, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1076.421042919158936, 264.966200232505798, 90.0, 20.0 ],
+					"text" : "Flash value"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 58.0, 826.315781593322754, 62.0, 22.0 ],
+					"text" : "s dataBus"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 58.0, 777.631571531295776, 173.0, 22.0 ],
+					"text" : "prepend /master/timbre/spread"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-19",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 58.0, 615.789467811584473, 20.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1076.421042919158936, 305.949805617332458, 92.368420362472534, 475.921194911003113 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
 					"id" : "obj-74",
@@ -871,8 +924,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}

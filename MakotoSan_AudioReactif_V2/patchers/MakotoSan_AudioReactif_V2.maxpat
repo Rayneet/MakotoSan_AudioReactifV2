@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -166,7 +166,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_groupAnalyser.maxpat",
 					"numinlets" : 1,
@@ -189,7 +188,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_TempoFinder.maxpat",
 					"numinlets" : 0,
@@ -211,7 +209,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_scenographie_V2.maxpat",
 					"numinlets" : 0,
@@ -320,7 +317,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_setOscAddresses.maxpat",
 					"numinlets" : 0,
@@ -342,7 +338,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_localProtoSend.maxpat",
 					"numinlets" : 0,
@@ -364,7 +359,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_AnimationPresets.maxpat",
 					"numinlets" : 0,
@@ -372,7 +366,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 853.521137952804565, 730.755095481872559, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 2197.587539911270142, 984.660231084261795, 1011.079373568296432 ],
+					"presentation_rect" : [ 1.0, 2197.587539911270142, 1227.160254210863968, 1011.079373568296432 ],
 					"viewvisibility" : 1
 				}
 
@@ -386,7 +380,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-175",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_AudioAnalyserV4.maxpat",
 					"numinlets" : 0,
@@ -434,7 +427,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-173",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_MC_AudioInputManager.maxpat",
 					"numinlets" : 0,
@@ -457,7 +449,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-166",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_OscMasterClock.maxpat",
 					"numinlets" : 0,
@@ -479,7 +470,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-149",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_OscRemoteControl.maxpat",
 					"numinlets" : 0,
@@ -501,7 +491,6 @@
 					"enablevscroll" : 0,
 					"id" : "obj-129",
 					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_OscOutputs.maxpat",
 					"numinlets" : 0,
@@ -1183,11 +1172,6 @@
 			"obj-2::obj-7::obj-8" : [ "textedit[2]", "textedit", 0 ],
 			"obj-3::obj-4" : [ "groupRoutingMatrix", "groupRoutingMatrix", 0 ],
 			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
 
 			}
 ,
@@ -1203,6 +1187,34 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "p_OscOutputs.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p_OscRemoteControl.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p_OscMasterClock.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p_MC_AudioInputManager.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Chikurin_MakotoSan.wav",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan",
 				"patcherrelativepath" : "../../../Sources/MakotoSan",
@@ -1217,8 +1229,11 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
+				"name" : "p_AudioAnalyserV4.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "audioAnalysers~.maxpat",
@@ -1235,70 +1250,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p_AudioAnalyserV4.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_MC_AudioInputManager.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_OscMasterClock.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_OscOutputs.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_OscRemoteControl.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_TempoFinder.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_event.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_groupAnalyser.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "p_localProtoSend.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_scenographie_V2.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1312,7 +1264,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "patchPreset.json",
+				"name" : "p_scenographie_V2.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p_event.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1326,7 +1285,36 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "p_TempoFinder.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p_groupAnalyser.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "patchPreset.json",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "zsa.bark~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zsa.slope~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -1335,10 +1323,6 @@
 			}
 , 			{
 				"name" : "zsa.mel~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zsa.slope~.mxo",
 				"type" : "iLaX"
 			}
  ],
