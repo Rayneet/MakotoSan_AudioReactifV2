@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 79.0, 881.0, 937.0 ],
+		"rect" : [ 113.0, 353.0, 1646.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,89 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-275",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 719.152383744716644, 1807.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-272",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 719.152383744716644, 1844.042392075061798, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-263",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3684.0, 534.586768567562103, 119.0, 22.0 ],
+					"text" : "if $f1 == 1 then bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-261",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3684.0, 564.0, 71.0, 22.0 ],
+					"text" : "s startTimer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-260",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 3684.0, 502.586768567562103, 126.0, 22.0 ],
+					"text" : "OSC-route /startTimer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-259",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 278.0, 430.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-258",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 761.327722489833832, 739.173739612102509, 70.0, 22.0 ],
+					"text" : "r clipIndex2"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-256",
 					"maxclass" : "newobj",
@@ -357,7 +440,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 684.327722489833832, 729.452475733490019, 29.5, 22.0 ],
+					"patching_rect" : [ 675.827722489833832, 747.452475733490019, 29.5, 22.0 ],
 					"text" : "- 1."
 				}
 
@@ -950,7 +1033,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 232.733364582061768, 98.0, 22.0 ],
-									"text" : "clips[0]::filename"
+									"text" : "clips[5]::filename"
 								}
 
 							}
@@ -1257,7 +1340,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 232.733364582061768, 136.0, 22.0 ],
-									"text" : "clips[0]::durationms"
+									"text" : "clips[5]::durationms"
 								}
 
 							}
@@ -1916,7 +1999,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1386.446718573570251, 797.727265119552612, 29.5, 22.0 ],
-					"text" : "0.7"
+					"text" : "0.8"
 				}
 
 			}
@@ -2404,7 +2487,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 994.203346014022827, 79.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"mcGains" : [ 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137, 137 ],
+						"mcGains" : [ 133, 116, 147, 123, 109, 134, 142, 130, 119, 110, 113, 98, 90, 88, 110, 93, 106, 95, 82, 94, 108, 106, 98, 109 ],
 						"playlist~[1]" : [ 							{
 								"data" : 								{
 									"clips" : [ 										{
@@ -2412,6 +2495,7 @@
 											"filename" : "Chikurin_MakotoSan.wav",
 											"filekind" : "audiofile",
 											"id" : "u273002981",
+											"selection" : [ 0.862275449101796, 1.0 ],
 											"loop" : 0,
 											"content_state" : 											{
 
@@ -2798,7 +2882,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 243.735076069831848, 871.910181999206543, 345.0, 22.0 ],
+					"patching_rect" : [ -25.807415902614594, 721.910181999206543, 345.0, 22.0 ],
 					"text" : "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24"
 				}
 
@@ -2854,7 +2938,7 @@
 					"clipheight" : 20.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT/01_Gender.wav",
+								"absolutepath" : "01_Gender.wav",
 								"filename" : "01_Gender.wav",
 								"filekind" : "audiofile",
 								"id" : "u138001268",
@@ -2866,7 +2950,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT/02_Matcha.wav",
+								"absolutepath" : "02_Matcha.wav",
 								"filename" : "02_Matcha.wav",
 								"filekind" : "audiofile",
 								"id" : "u467001260",
@@ -2878,7 +2962,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT/03_MakotoSan.wav",
+								"absolutepath" : "03_MakotoSan.wav",
 								"filename" : "03_MakotoSan.wav",
 								"filekind" : "audiofile",
 								"id" : "u160001261",
@@ -2890,7 +2974,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT/04_Kibou.wav",
+								"absolutepath" : "04_Kibou.wav",
 								"filename" : "04_Kibou.wav",
 								"filekind" : "audiofile",
 								"id" : "u879001262",
@@ -2902,7 +2986,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT/05_Hokan.wav",
+								"absolutepath" : "05_Hokan.wav",
 								"filename" : "05_Hokan.wav",
 								"filekind" : "audiofile",
 								"id" : "u848001263",
@@ -2914,7 +2998,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT/06_Chikurin.wav",
+								"absolutepath" : "06_Chikurin.wav",
 								"filename" : "06_Chikurin.wav",
 								"filekind" : "audiofile",
 								"id" : "u490001264",
@@ -2926,7 +3010,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT/07_Fuji.wav",
+								"absolutepath" : "07_Fuji.wav",
 								"filename" : "07_Fuji.wav",
 								"filekind" : "audiofile",
 								"id" : "u324001265",
@@ -2938,7 +3022,7 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT/08_Odaiko.wav",
+								"absolutepath" : "08_Odaiko.wav",
 								"filename" : "08_Odaiko.wav",
 								"filekind" : "audiofile",
 								"id" : "u116001266",
@@ -2950,10 +3034,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT/09_44HH.wav",
+								"absolutepath" : "09_44HH.wav",
 								"filename" : "09_44HH.wav",
 								"filekind" : "audiofile",
 								"id" : "u539001267",
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -3065,8 +3150,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 279.678891897201538, 912.997608959674835, 161.0, 22.0 ],
-					"text" : "mc.adc~ 1 2 3 4 5 6 7 8 9 10"
+					"patching_rect" : [ 279.678891897201538, 912.997608959674835, 394.0, 22.0 ],
+					"text" : "mc.adc~ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24"
 				}
 
 			}
@@ -3080,6 +3165,7 @@
 								"filename" : "Chikurin_MakotoSan.wav",
 								"filekind" : "audiofile",
 								"id" : "u273002981",
+								"selection" : [ 0.862275449101796, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -6246,6 +6332,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-231", 1 ],
+					"source" : [ "obj-258", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-124", 0 ],
+					"source" : [ "obj-259", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
@@ -6260,8 +6360,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-263", 0 ],
+					"source" : [ "obj-260", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-261", 0 ],
+					"source" : [ "obj-263", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-234", 10 ],
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"source" : [ "obj-272", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-272", 0 ],
+					"source" : [ "obj-275", 0 ]
 				}
 
 			}
@@ -7122,6 +7250,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-260", 0 ],
+					"order" : 0,
 					"source" : [ "obj-83", 0 ]
 				}
 
