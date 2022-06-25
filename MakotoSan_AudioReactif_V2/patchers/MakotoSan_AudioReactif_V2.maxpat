@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1220.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -174,7 +174,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 2471.428300380706787, 1314.28557014465332, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2465.502957224845886, 1141.968602657318115, 1047.571348667144775, 1022.420679330825806 ],
+					"presentation_rect" : [ 2465.502957224845886, 1141.968602657318115, 1267.571348667144775, 1022.420679330825806 ],
 					"varname" : "p_groupAnalyser",
 					"viewvisibility" : 1
 				}
@@ -198,29 +198,6 @@
 					"patching_rect" : [ 1966.66649317741394, 1254.54534387588501, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2204.825039535130145, 1157.587533712387085, 254.666625499725342, 265.412466287612915 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-2",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "p_scenographie_V2.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 774.0, 818.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 110.884233117103577, 1930.499983072280884, 736.0, 244.0 ],
-					"varname" : "p_scenographie_V2",
 					"viewvisibility" : 1
 				}
 
@@ -257,7 +234,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2173.0, 610.0, 58.0, 35.0 ],
+					"patching_rect" : [ 1888.298683166503906, 690.519479751586914, 58.0, 35.0 ],
 					"text" : ";\rdsp open"
 				}
 
@@ -281,8 +258,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1914.0, 546.0, 136.0, 22.0 ],
-					"text" : "OSC-route /panicButton"
+					"patching_rect" : [ 1914.0, 546.0, 119.0, 22.0 ],
+					"text" : "OSC-route /unfreeze"
 				}
 
 			}
@@ -295,19 +272,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1914.0, 508.0, 121.0, 22.0 ],
 					"text" : "r fromRemoteControl"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1914.0, 637.0, 103.0, 35.0 ],
-					"text" : ";\rmax relaunchmax"
 				}
 
 			}
@@ -372,7 +336,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 853.521137952804565, 730.755095481872559, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 2197.587539911270142, 1227.160254210863968, 1011.079373568296432 ],
+					"presentation_rect" : [ 1.0, 1678.436036467552185, 1227.160254210863968, 1011.079373568296432 ],
 					"viewvisibility" : 1
 				}
 
@@ -509,7 +473,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 0.0, 558.592290490865707, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 171.750572681427002, 694.384160399436951, 1676.685463786125183 ],
+					"presentation_rect" : [ 1.0, 171.750572681427002, 694.384160399436951, 1504.685463786125183 ],
 					"viewvisibility" : 1
 				}
 
@@ -964,13 +928,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-157", 0 ],
 					"source" : [ "obj-138", 0 ]
 				}
@@ -1175,22 +1132,8 @@
  ],
 		"parameters" : 		{
 			"obj-173::obj-81" : [ "playlist~[1]", "playlist~[1]", 0 ],
-			"obj-2::obj-1::obj-1" : [ "umenu", "umenu", 0 ],
-			"obj-2::obj-1::obj-8" : [ "textedit", "textedit", 0 ],
-			"obj-2::obj-2::obj-1" : [ "umenu[1]", "umenu", 0 ],
-			"obj-2::obj-2::obj-8" : [ "textedit[1]", "textedit", 0 ],
-			"obj-2::obj-7::obj-1" : [ "umenu[2]", "umenu", 0 ],
-			"obj-2::obj-7::obj-8" : [ "textedit[2]", "textedit", 0 ],
 			"obj-3::obj-4" : [ "groupRoutingMatrix", "groupRoutingMatrix", 0 ],
 			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-2::obj-1::obj-1" : 				{
-					"parameter_linknames" : 0,
-					"parameter_longname" : "umenu"
-				}
 
 			}
 ,
@@ -1279,6 +1222,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "groupAnalyser~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "p_AnimationPresets.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
@@ -1328,13 +1278,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p_event.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "p_groupAnalyser.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
@@ -1343,13 +1286,6 @@
 			}
 , 			{
 				"name" : "p_localProtoSend.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_scenographie_V2.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1370,9 +1306,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sceno.json",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/data",
-				"patcherrelativepath" : "../data",
+				"name" : "zsa.abs_slope~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1383,6 +1319,13 @@
 , 			{
 				"name" : "zsa.centroid~.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zsa.easy_slope~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.mel~.mxo",
