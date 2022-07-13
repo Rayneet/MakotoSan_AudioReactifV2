@@ -40,6 +40,172 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-315",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 407.525780439376831, 361.672650098800659, 63.0, 22.0 ],
+					"text" : "r playNext"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-314",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2360.661576509475708, 243.795619130134583, 144.0, 22.0 ],
+					"text" : "if $f1 > 0 then $f1 else 42"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-313",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2250.675844212372795, 410.948902904987335, 65.0, 22.0 ],
+					"text" : "s playNext"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-312",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2250.675844212372795, 371.532844722270966, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-310",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2250.675844212372795, 326.277370512485504, 67.0, 22.0 ],
+					"text" : "delay 2000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-309",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 515.328464388847351, 394.49852991104126, 89.0, 22.0 ],
+					"text" : "r nextClipIndex"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-308",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 481.021895229816437, 538.686128497123718, 91.0, 22.0 ],
+					"text" : "s nextClipIndex"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-307",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 481.080778777599335, 506.666731595993042, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-304",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2250.675844212372795, 291.97080135345459, 129.0, 22.0 ],
+					"text" : "if $f1 == $f2 then bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-303",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2250.675844212372795, 199.782573580741882, 77.0, 22.0 ],
+					"text" : "r clipLength2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-300",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 2360.661576509475708, 203.802047789096832, 29.5, 22.0 ],
+					"text" : "* 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-301",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2468.039619485536605, 164.746077418327332, 77.0, 22.0 ],
+					"text" : "r clipLength2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-302",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2360.661576509475708, 164.746077418327332, 71.0, 22.0 ],
+					"text" : "r playTime2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-299",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 43.0, 506.666731595993042, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-298",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -374,14 +540,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-575",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3249.861764039993432, 1123.811187744140625, 50.0, 22.0 ],
+					"patching_rect" : [ 3249.861764039993432, 1123.811187744140625, 50.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 646.053944170475006, 2752.0, 105.422501327466534, 22.0 ],
-					"text" : "0 0 0"
+					"text" : "0 55 924"
 				}
 
 			}
@@ -1176,7 +1343,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 232.733364582061768, 98.0, 22.0 ],
-									"text" : "clips[5]::filename"
+									"text" : "clips[0]::filename"
 								}
 
 							}
@@ -1483,7 +1650,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 232.733364582061768, 136.0, 22.0 ],
-									"text" : "clips[5]::durationms"
+									"text" : "clips[0]::durationms"
 								}
 
 							}
@@ -1646,7 +1813,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.580778777599335, 372.426222801208496, 70.0, 22.0 ],
+					"patching_rect" : [ 491.580778777599335, 361.672650098800659, 70.0, 22.0 ],
 					"text" : "r clipIndex2"
 				}
 
@@ -3081,6 +3248,114 @@
 					"clipheight" : 20.0,
 					"data" : 					{
 						"clips" : [ 							{
+								"absolutepath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan/01_Gendèr_MultichannelComp.wav",
+								"filename" : "01_Gendèr_MultichannelComp.wav",
+								"filekind" : "audiofile",
+								"id" : "u583011172",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan/02_Matcha_MultichannelComp.wav",
+								"filename" : "02_Matcha_MultichannelComp.wav",
+								"filekind" : "audiofile",
+								"id" : "u366011164",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan/03_MakotoSan_MultichannelComp.wav",
+								"filename" : "03_MakotoSan_MultichannelComp.wav",
+								"filekind" : "audiofile",
+								"id" : "u226011165",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan/04_Kibô_MultichannelComp.wav",
+								"filename" : "04_Kibô_MultichannelComp.wav",
+								"filekind" : "audiofile",
+								"id" : "u969011166",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan/05_Hokan_MultichannelComp.wav",
+								"filename" : "05_Hokan_MultichannelComp.wav",
+								"filekind" : "audiofile",
+								"id" : "u613011167",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan/06_Chikurin_MultichannelComp.wav",
+								"filename" : "06_Chikurin_MultichannelComp.wav",
+								"filekind" : "audiofile",
+								"id" : "u193011168",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan/07_Fuji_MultichannelComp.wav",
+								"filename" : "07_Fuji_MultichannelComp.wav",
+								"filekind" : "audiofile",
+								"id" : "u901011169",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan/08_ODaïko_MultichannelComp.wav",
+								"filename" : "08_ODaïko_MultichannelComp.wav",
+								"filekind" : "audiofile",
+								"id" : "u497011170",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan/09_44HH_MultichannelComp.wav",
+								"filename" : "09_44HH_MultichannelComp.wav",
+								"filekind" : "audiofile",
+								"id" : "u645011171",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
 								"absolutepath" : "01_Gender.wav",
 								"filename" : "01_Gender.wav",
 								"filekind" : "audiofile",
@@ -3145,7 +3420,7 @@
 								"filename" : "06_Chikurin.wav",
 								"filekind" : "audiofile",
 								"id" : "u490001264",
-								"selection" : [ 0.472868217054264, 1.0 ],
+								"selection" : [ 0.0, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -5317,6 +5592,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-195", 0 ],
+					"order" : 0,
+					"source" : [ "obj-122", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-307", 0 ],
+					"order" : 1,
 					"source" : [ "obj-122", 0 ]
 				}
 
@@ -6655,6 +6939,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-284", 0 ],
+					"source" : [ "obj-299", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-234", 18 ],
 					"source" : [ "obj-3", 0 ]
 				}
@@ -6669,8 +6960,85 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-314", 0 ],
+					"source" : [ "obj-300", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-300", 1 ],
+					"source" : [ "obj-301", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-300", 0 ],
+					"source" : [ "obj-302", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-304", 0 ],
+					"source" : [ "obj-303", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-310", 0 ],
+					"source" : [ "obj-304", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-308", 0 ],
+					"source" : [ "obj-307", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 1 ],
+					"source" : [ "obj-309", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-234", 20 ],
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-312", 0 ],
+					"source" : [ "obj-310", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-313", 0 ],
+					"source" : [ "obj-312", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-304", 1 ],
+					"source" : [ "obj-314", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"source" : [ "obj-315", 0 ]
 				}
 
 			}
