@@ -1141,76 +1141,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "01_Gender.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"patcherrelativepath" : "../../../Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "02_Matcha.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"patcherrelativepath" : "../../../Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "03_MakotoSan.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"patcherrelativepath" : "../../../Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "04_Kibou.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"patcherrelativepath" : "../../../Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "05_Hokan.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"patcherrelativepath" : "../../../Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "06_Chikurin.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"patcherrelativepath" : "../../../Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "07_Fuji.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"patcherrelativepath" : "../../../Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "08_Odaiko.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"patcherrelativepath" : "../../../Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "09_44HH.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"patcherrelativepath" : "../../../Sources/MakotoSan/Live_Complet/Live_MC_comp/EXPORT",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Chikurin_MakotoSan.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/Sources/MakotoSan",
-				"patcherrelativepath" : "../../../Sources/MakotoSan",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
@@ -1222,11 +1152,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "groupAnalyser~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "ircamdescriptor~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "p_AnimationPresets.maxpat",
@@ -1306,26 +1233,12 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "zsa.abs_slope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "zsa.bark~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "zsa.centroid~.mxo",
 				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zsa.easy_slope~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
-				"type" : "JSON",
-				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.mel~.mxo",
