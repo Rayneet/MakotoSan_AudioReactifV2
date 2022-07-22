@@ -40,6 +40,34 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 4536.0, 2080.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4536.0, 2080.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 4560.0, 2076.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -174,7 +202,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 2471.428300380706787, 1314.28557014465332, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2465.502957224845886, 1141.968602657318115, 1267.571348667144775, 1022.420679330825806 ],
+					"presentation_rect" : [ 2465.502957224845886, 1141.968602657318115, 1502.793574810028076, 923.964541673660278 ],
 					"varname" : "p_groupAnalyser",
 					"viewvisibility" : 1
 				}
@@ -1141,6 +1169,69 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "01_Gendèr_MultichannelComp.wav",
+				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "02_Matcha_MultichannelComp.wav",
+				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "03_MakotoSan_MultichannelComp.wav",
+				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "04_Kibô_MultichannelComp.wav",
+				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "05_Hokan_MultichannelComp.wav",
+				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "06_Chikurin_MultichannelComp.wav",
+				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "07_Fuji_MultichannelComp.wav",
+				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "08_ODaïko_MultichannelComp.wav",
+				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "09_44HH_MultichannelComp.wav",
+				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
