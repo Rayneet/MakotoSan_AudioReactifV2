@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1612.0, 937.0 ],
+		"rect" : [ 42.0, 85.0, 1980.0, 1273.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -202,7 +202,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 2471.428300380706787, 1314.28557014465332, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2465.502957224845886, 1141.968602657318115, 1502.793574810028076, 923.964541673660278 ],
+					"presentation_rect" : [ 2465.502957224845886, 1155.863777816295624, 2025.793574810028076, 923.964541673660278 ],
 					"varname" : "p_groupAnalyser",
 					"viewvisibility" : 1
 				}
@@ -249,8 +249,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2277.0, 610.0, 68.0, 35.0 ],
-					"text" : ";\rdsp wclose"
+					"patching_rect" : [ 2277.0, 610.0, 68.0, 36.0 ],
+					"text" : ";\r\ndsp wclose"
 				}
 
 			}
@@ -262,8 +262,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1888.298683166503906, 690.519479751586914, 58.0, 35.0 ],
-					"text" : ";\rdsp open"
+					"patching_rect" : [ 1888.298683166503906, 690.519479751586914, 58.0, 36.0 ],
+					"text" : ";\r\ndsp open"
 				}
 
 			}
@@ -619,7 +619,7 @@
 					"patching_rect" : [ 612.499994158744812, 771.109062969684601, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1102.163401007652283, 419.343519121408463, 109.538460850715637, 33.0 ],
+					"presentation_rect" : [ 1102.163401007652283, 419.343519121408463, 109.538460850715637, 34.0 ],
 					"text" : "Is Perf. Computer ?",
 					"textjustification" : 1
 				}
@@ -778,7 +778,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1414.389955878257751, 1323.028696179389954, 50.0, 33.0 ],
+					"patching_rect" : [ 1414.389955878257751, 1323.028696179389954, 50.0, 34.0 ],
 					"text" : "Output Max"
 				}
 
@@ -791,7 +791,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1362.389955878257751, 1323.028696179389954, 50.0, 33.0 ],
+					"patching_rect" : [ 1362.389955878257751, 1323.028696179389954, 50.0, 34.0 ],
 					"text" : "Output Min"
 				}
 
@@ -804,7 +804,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1310.389955878257751, 1323.028696179389954, 50.0, 33.0 ],
+					"patching_rect" : [ 1310.389955878257751, 1323.028696179389954, 50.0, 34.0 ],
 					"text" : "Input Max"
 				}
 
@@ -817,7 +817,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1255.889955878257751, 1323.028696179389954, 50.0, 33.0 ],
+					"patching_rect" : [ 1255.889955878257751, 1323.028696179389954, 50.0, 34.0 ],
 					"text" : "Input Min"
 				}
 
@@ -1170,174 +1170,174 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "01_Gendèr_MultichannelComp.wav",
-				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
-				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"bootpath" : "~/Documents/8Temps/AudioFiles/MakotoSan",
+				"patcherrelativepath" : "../../../../../8Temps/AudioFiles/MakotoSan",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "02_Matcha_MultichannelComp.wav",
-				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
-				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"bootpath" : "~/Documents/8Temps/AudioFiles/MakotoSan",
+				"patcherrelativepath" : "../../../../../8Temps/AudioFiles/MakotoSan",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "03_MakotoSan_MultichannelComp.wav",
-				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
-				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"bootpath" : "~/Documents/8Temps/AudioFiles/MakotoSan",
+				"patcherrelativepath" : "../../../../../8Temps/AudioFiles/MakotoSan",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "04_Kibô_MultichannelComp.wav",
-				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
-				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"bootpath" : "~/Documents/8Temps/AudioFiles/MakotoSan",
+				"patcherrelativepath" : "../../../../../8Temps/AudioFiles/MakotoSan",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "05_Hokan_MultichannelComp.wav",
-				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
-				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"bootpath" : "~/Documents/8Temps/AudioFiles/MakotoSan",
+				"patcherrelativepath" : "../../../../../8Temps/AudioFiles/MakotoSan",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "06_Chikurin_MultichannelComp.wav",
-				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
-				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"bootpath" : "~/Documents/8Temps/AudioFiles/MakotoSan",
+				"patcherrelativepath" : "../../../../../8Temps/AudioFiles/MakotoSan",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "07_Fuji_MultichannelComp.wav",
-				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
-				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"bootpath" : "~/Documents/8Temps/AudioFiles/MakotoSan",
+				"patcherrelativepath" : "../../../../../8Temps/AudioFiles/MakotoSan",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "08_ODaïko_MultichannelComp.wav",
-				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
-				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"bootpath" : "~/Documents/8Temps/AudioFiles/MakotoSan",
+				"patcherrelativepath" : "../../../../../8Temps/AudioFiles/MakotoSan",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "09_44HH_MultichannelComp.wav",
-				"bootpath" : "/Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
-				"patcherrelativepath" : "../../../../../../../../../../Volumes/T7/MAX_PROJECTS/8TEMPS/AUDIOFILES/MakotoSan",
+				"bootpath" : "~/Documents/8Temps/AudioFiles/MakotoSan",
+				"patcherrelativepath" : "../../../../../8Temps/AudioFiles/MakotoSan",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
+				"name" : "OSC-route.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "audioAnalysers~.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ircamdescriptor~.mxo",
-				"type" : "iLaX"
+				"name" : "ircamdescriptor~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "p_AnimationPresets.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_AudioAnalyserV4.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_MC_AudioInputManager.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_OscMasterClock.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_OscOutputs.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_OscRemoteControl.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_TempoFinder.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_groupAnalyser.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_localProtoSend.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_setOscAddresses.maxpat",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "patchPreset.json",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/data",
+				"bootpath" : "~/Documents/Max 8/Projects/MakotoSan_AudioReactifV2/MakotoSan_AudioReactif_V2/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "zsa.bark~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.bark~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.centroid~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.centroid~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.mel~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.mel~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.slope~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.slope~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
